@@ -145,7 +145,7 @@ id:Int!
 body: String!
 product:Product!
 user: User!
-#}
+}
 
 #"""
 #A Subscription for whenever a new review has been added.
@@ -153,4 +153,4 @@ user: User!
 type Subscription {
 #ADD SUBSCRIPTION FIELDS AND RETURN TYPES HERE
 reviewAdded:Review
-#}
+}
